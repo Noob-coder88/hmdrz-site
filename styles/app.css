@@ -1,0 +1,146 @@
+html {
+  font-size: 62.5%;
+  box-sizing:border-box ;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+.roboto-mono- {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+:root {
+  --color-bg: #171717;
+  --color-surface: #444444;
+  --color-accent: #DA0037;
+  --color-text: #EDEDED;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER AND NAV */
+.header{
+}
+.nav{
+}
+.nav_content{
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    box-shadow: var(--color-surface) 0 .2rem 0;
+}
+.nav_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo_img{
+    height: 5rem;
+    width: 5rem;
+}
+.nav_buttons{
+
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    align-items:center ;
+    padding: 0;
+}
+.nav_item{
+    padding-left: 3rem;
+}
+.nav_button{
+    font-size: 1.8rem;
+    color: var(--color-text);
+}
+.nav_button--shows{
+    color: var(--color-accent);
+}
+
+
+/* MAIN - HERO */
+.main{
+
+}
+.hero{
+    padding: 4rem 0 2rem 2rem;
+}
+.currently{
+    padding: 2em 0 2rem 2rem;
+}
+.shows{
+    padding: 2rem 0 4rem 2rem;
+}
+.main_contect{
+
+}
+.main_title{
+    font-size: 2.4rem;
+
+}
+.main_description{
+    font-size: 1.8rem;
+}
+.shows_button{
+    color: var(--color-accent);
+}
+
+/* FOOTER */
+
+.footer{
+
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: var(--color-surface) 0 -.2rem 0;
+}
+.footer_nav{
+
+}
+.footer_nav_list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_nav_item{
+    padding: 0 1rem  ;
+}
+.footer_nav_link{
+    color: var(--color-text);
+    font-size: 1.6rem;
+
+}
+.copyrights{
+
+}
+.copyright{
+    font-size:1.4rem;
+}
