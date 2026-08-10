@@ -162,6 +162,9 @@ body {
     font-size: 1.8rem;
 
 }
+.shows_about_description--long{
+    line-height: 1.8;
+}
 .shows_list{
     display: grid;
     grid-template-columns: 1fr;
@@ -172,7 +175,10 @@ body {
     grid-template-columns: 2fr repeat(3, 1fr);
     align-items: center;
     color: var(--color-text);
-        box-shadow: var(--color-surface) 0 .2rem 0;
+    box-shadow: var(--color-surface) 0 .2rem 0;
+}
+.shows_item:last-child{
+    box-shadow: none;
 }
 .shows_item:hover{
     color: var(--color-accent);
@@ -192,4 +198,79 @@ body {
 .show_myrate{
     font-size: 1.4rem;
     text-align: right;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .nav_logo_img{
+        height: 4rem;
+        width: 4rem;
+    }
+    .nav_button{
+        font-size: 1.6rem;
+        color: var(--color-text);
+    }
+    .hero{
+        padding: 2rem;
+    }
+    .currently{
+        padding: 0 2rem;
+    }
+    .shows{
+        padding: 2rem;
+    }
+    .main_title{
+        font-size: 2rem;
+
+    }
+    .main_description{
+        font-size: 1.6rem;
+    }
+    .footer_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_nav_link{
+        font-size: 1.4rem;
+    }
+    .copyright{
+        font-size:1.2rem;
+    }
+
+    .shows_about{
+        padding: 2rem;
+    }
+    .shows_about_title{
+        font-size: 2rem;
+    }
+    .shows_about_description{
+        font-size: 1.6rem;
+
+    }
+    .shows_item{
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 4rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .show_title{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 1.6rem;
+    }
+    .show_status{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .show_imdb{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .show_myrate{
+        font-size: 1.4rem;
+        text-align: center;
+    }
 }
