@@ -144,3 +144,52 @@ body {
 .copyright{
     font-size:1.4rem;
 }
+
+
+
+/* SHOWS PAGE */
+
+.my_shows{
+
+}
+.shows_about{
+    padding: 4rem 0 2rem 2rem;
+}
+.shows_about_title{
+    font-size: 2.4rem;
+}
+.shows_about_description{
+    font-size: 1.8rem;
+
+}
+.shows_list{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem 4rem 1rem ;
+}
+.shows_item{
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    align-items: center;
+    color: var(--color-text);
+        box-shadow: var(--color-surface) 0 .2rem 0;
+}
+.shows_item:hover{
+    color: var(--color-accent);
+    transition: all 300ms ease-in-out;
+}
+.show_title{
+    font-size: 1.8rem;
+}
+.show_status{
+    font-size: 1.4rem;
+    text-align: right;
+}
+.show_imdb{
+    font-size: 1.4rem;
+    text-align: right;
+}
+.show_myrate{
+    font-size: 1.4rem;
+    text-align: right;
+}
