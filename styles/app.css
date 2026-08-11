@@ -225,31 +225,43 @@ body {
     object-fit: cover;
 }
 .show_info{
-
+    text-align: left;
 }
 .show_title{
     font-size: 3.4rem;
 }
 .show_status{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 .show_imdb{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 .show_myrate{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 .show_seasins{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 .show_episodes{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 .show_imdb_link{
     padding: 1rem 0;
     font-size: 1.8rem;
     color: var(--color-accent);
 }
+.show_description{
+
+}
+.show_about_title{
+    font-size: 2.8rem;
+}
+.show_about_text{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    height: 14rem;
+}
+
 
 @media (max-width: 576px) {
     .container{
