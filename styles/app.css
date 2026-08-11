@@ -184,22 +184,72 @@ body {
     color: var(--color-accent);
     transition: all 300ms ease-in-out;
 }
-.show_title{
+.shows_title{
     font-size: 1.8rem;
 }
-.show_status{
+.shows_status{
     font-size: 1.4rem;
     text-align: right;
 }
-.show_imdb{
+.shows_imdb{
     font-size: 1.4rem;
     text-align: right;
 }
-.show_myrate{
+.shows_myrate{
     font-size: 1.4rem;
     text-align: right;
 }
 
+/* Show page */
+.show{
+    padding: 4rem 1rem;
+}
+.back_button{
+    font-size: 1.8rem;
+    color: var(--color-text);
+    display: block;
+    padding-bottom: 4rem;
+}
+.back_button--red{
+
+}
+.show_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.show_cover{
+}
+.show_cover_img{
+    max-height: 42rem;
+    max-width: 28rem;
+    object-fit: cover;
+}
+.show_info{
+
+}
+.show_title{
+    font-size: 3.4rem;
+}
+.show_status{
+    font-size: 1.6rem;
+}
+.show_imdb{
+    font-size: 1.6rem;
+}
+.show_myrate{
+    font-size: 1.6rem;
+}
+.show_seasins{
+    font-size: 1.6rem;
+}
+.show_episodes{
+    font-size: 1.6rem;
+}
+.show_imdb_link{
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    color: var(--color-accent);
+}
 
 @media (max-width: 576px) {
     .container{
