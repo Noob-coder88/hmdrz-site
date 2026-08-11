@@ -41,26 +41,22 @@
                 <a href="./shows.html" class="back_button"><span class="back_button--red">← </span>Back to shows </a>
                 <article class="show_content">
                     <div class="show_cover">
-                        <img src="./images/shows/Seinfeld.webp" alt="Faild To Load" class="show_cover_img">
+                        <img src="" alt="" class="show_cover_img" id="show-cover-img">
                     </div>
                     <div class="show_info">
-                        <h1 class="show_title">Seinfeld</h1>
-                        <p class="show_status">Status: Watching</p>
-                        <p class="show_imdb">My rating: 9</p>
-                        <p class="show_myrate">IMDb: 8.8</p>
-                        <p class="show_seasins">Seasons: 9</p>
-                        <p class="show_episodes">Episodes: 180</p>
-
-                    </div>
-                    <div class="show_description">
-                        <h2 class="show_about_title">About</h2>
-                        <p class="show_about_text">
-                            Seinfeld follows the everyday lives of Jerry Seinfeld
-                            and his friends in New York City, turning ordinary
-                            situations into comedy.</p>
-                        <a href="https://www.imdb.com/title/tt0098904/?ref_=mv_close" target="_blank" rel="noopener" class="show_imdb_link">
+                        <h1 id="show-title" class="show_title" ></h1>
+                        <p class="show_status">     Status:         <span id="show-status"></span>     </p>
+                        <p class="show_myrate">     My rating:      <span id="show-myrate"></span>  </p>
+                        <p class="show_imdb">       IMDb:           <span id="show-imdb"></span>       </p>
+                        <p class="show_seasons">   Seasons:        <span id="show-seasons"></span>    </p>
+                        <p class="show_episodes">   Episodes:       <span id="show-episodes"></span>   </p>
+                                                <a href="" target="_blank" rel="noopener" class="show_imdb_link" id="show-imdb-link">
                             [ View on IMDb ]
                         </a>
+                    </div>
+                    <div class="show_about">
+                        <h2 class="show_about_title">About</h2>
+                        <p id="show-description" class="show_about_text"></p>
                     </div>
                 </article>
             </section>
@@ -88,5 +84,31 @@
             </section>
         </div>
     </footer>
+    <script src="./data/shows.js"></script>
+<script>
+    console.log(shows);
+    const params = new URLSearchParams(window.location.search);
+    const showId = params.get("id");
+    console.log(showId);
+
+
+
+    const show = shows.find(show => show.id === showId);
+
+    const image = document.getElementById("show-cover-img");
+    image.src = show.image;
+    image.alt = show.title;
+
+    document.getElementById("show-title").textContent = show.title;
+    document.getElementById("show-status").textContent = show.status;
+    document.getElementById("show-myrate").textContent = show.myrate;
+    document.getElementById("show-imdb").textContent = show.imdb;
+    document.getElementById("show-seasons").textContent = show.seasons;
+    document.getElementById("show-episodes").textContent = show.episodes;
+    document.getElementById("show-description").textContent = show.description;
+    document.getElementById("show-imdb-link").href = show.imdbUrl;
+
+    console.log(show);
+</script>
 </body>
 </html>

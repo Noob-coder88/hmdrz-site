@@ -241,7 +241,7 @@ body {
 .show_myrate{
     font-size: 1.8rem;
 }
-.show_seasins{
+.show_seasons{
     font-size: 1.8rem;
 }
 .show_episodes{
@@ -252,7 +252,7 @@ body {
     font-size: 1.8rem;
     color: var(--color-accent);
 }
-.show_description{
+.show_about{
 
 }
 .show_about_title{
