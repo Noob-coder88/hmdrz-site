@@ -103,9 +103,11 @@ body {
 }
 .main_description{
     font-size: 1.8rem;
+        margin-bottom: 0;
 }
 .shows_button{
     color: var(--color-accent);
+
 }
 
 /* FOOTER */
@@ -225,7 +227,7 @@ body {
     object-fit: cover;
 }
 .show_info{
-    text-align: left;
+
 }
 .show_title{
     font-size: 3.4rem;
@@ -273,7 +275,7 @@ body {
     }
     .nav_button{
         font-size: 1.6rem;
-        color: var(--color-text);
+
     }
     .hero{
         padding: 2rem;
@@ -318,21 +320,69 @@ body {
         text-align: center;
         padding: 1rem 0;
     }
-    .show_title{
+    .shows_title{
         grid-column-start: 1;
         grid-column-end: 4;
         font-size: 1.6rem;
     }
-    .show_status{
+    .shows_status{
         font-size: 1.4rem;
         text-align: center;
+    }
+    .shows_imdb{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .shows_myrate{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .show{
+        padding: 2rem 1rem;
+    }
+    .back_button{
+        font-size: 1.6rem;
+        color: var(--color-text);
+        display: block;
+        padding-bottom: 2rem;
+    }
+    .show_content{
+        grid-template-columns: 1fr;
+    }
+    .show_cover{
+        text-align: center;
+    }
+    .show_info{
+        text-align: center;
+    }
+    .show_title{
+        font-size: 2.6rem;
+    }
+    .show_status{
+        font-size: 1.6rem;
     }
     .show_imdb{
-        font-size: 1.4rem;
-        text-align: center;
+        font-size: 1.6rem;
     }
     .show_myrate{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+    }
+    .show_seasins{
+        font-size: 1.6rem;
+    }
+    .show_episodes{
+        font-size: 1.6rem;
+    }
+    .show_description{
         text-align: center;
+        padding-bottom: ;
+    }
+    .show_about_title{
+        font-size: 2rem;
+    }
+    .show_about_text{
+        font-size: 1.6rem;
+        height: auto;
     }
 }
