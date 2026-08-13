@@ -220,6 +220,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 .show_cover{
+    height: 42rem;
 }
 .show_cover_img{
     max-height: 42rem;
@@ -263,6 +264,8 @@ body {
     line-height: 1.5;
     height: 14rem;
 }
+
+
 
 
 @media (max-width: 576px) {

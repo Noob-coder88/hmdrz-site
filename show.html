@@ -38,7 +38,7 @@
     <main class="main">
         <div class="container">
             <section class="show">
-                <a href="./shows.html" class="back_button"><span class="back_button--red">← </span>Back to shows </a>
+                <a href="./shows.html" class="back_button" id="back-link"> ← Back to shows </a>
                 <article class="show_content">
                     <div class="show_cover">
                         <img src="" alt="" class="show_cover_img" id="show-cover-img">
@@ -107,7 +107,10 @@
     document.getElementById("show-episodes").textContent = show.episodes;
     document.getElementById("show-description").textContent = show.description;
     document.getElementById("show-imdb-link").href = show.imdbUrl;
-
+    document.getElementById("back-link").addEventListener("click", (e) => {
+        e.preventDefault();
+        history.back();
+    });
     console.log(show);
 </script>
 </body>
