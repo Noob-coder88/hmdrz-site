@@ -95,13 +95,14 @@
     const image = document.getElementById("show-cover-img");
     const loader = document.querySelector(".image_loader");
 
+    image.alt = show.title;
+
     image.onload = () => {
+        loader.style.display = "none";
         image.classList.add("loaded");
-        loader.classList.add("hidden");
     };
 
     image.src = show.image;
-    image.alt = show.title;
 
     document.getElementById("show-title").textContent = show.title;
     document.getElementById("show-status").textContent = show.status;
