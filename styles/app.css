@@ -219,13 +219,15 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.show_cover{
+.show_cover {
+    width: 28rem;
     height: 42rem;
 }
-.show_cover_img{
-    max-height: 42rem;
-    max-width: 28rem;
+.show_cover_img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    display: block;
 }
 .show_info{
 
