@@ -41,7 +41,7 @@
                 <a href="./shows.html" class="back_button" id="back-link"> ← Back to shows </a>
                 <article class="show_content">
                     <div class="show_cover">
-                        <img src="" alt="" class="show_cover_img" id="show-cover-img">
+                        <img src="" alt="" loading="eager" fetchpriority="high" class="show_cover_img" id="show-cover-img">
                     </div>
                     <div class="show_info">
                         <h1 id="show-title" class="show_title" ></h1>
@@ -86,12 +86,8 @@
     </footer>
     <script src="./data/shows.js"></script>
 <script>
-    console.log(shows);
     const params = new URLSearchParams(window.location.search);
     const showId = params.get("id");
-    console.log(showId);
-
-
 
     const show = shows.find(show => show.id === showId);
 
@@ -111,7 +107,6 @@
         e.preventDefault();
         history.back();
     });
-    console.log(show);
 </script>
 </body>
 </html>
