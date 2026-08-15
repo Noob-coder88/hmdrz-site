@@ -7,7 +7,7 @@ const shows = [
         imdb: 8.8,
         seasons: 9,
         episodes: 180,
-        description: "Seinfeld follows the everyday lives of Jerry Seinfeld and his friends in New York City, turning ordinary situations into comedy.",
+        description: "Jerry and his unusual friends turn the smallest, most normal moments of life in New York into something hilariously complicated.",
         image: "./images/shows/Seinfeld.webp",
         imdbUrl: "https://www.imdb.com/title/tt0098904/"
     },
@@ -19,7 +19,7 @@ const shows = [
         imdb: 8.4,
         seasons: 15,
         episodes: 327,
-        description: "Two brothers follow their father's footsteps as hunters, fighting evil supernatural beings of many kinds, including monsters, demons, and gods that roam the earth.",
+        description: "Two brothers hit the road to hunt monsters and demons, discovering a much bigger story about family, fate, and sacrifice.",
         image: "./images/shows/supernatural.webp",
         imdbUrl: "https://www.imdb.com/title/tt0460681/"
     },
@@ -31,7 +31,7 @@ const shows = [
         imdb: 8.3,
         seasons: 9,
         episodes: 208,
-        description: "A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother.",
+        description: "Years later, Ted Mosby tells his children the story of the friendships, heartbreaks, and unexpected moments that eventually led him to meet their mother.",
         image: "./images/shows/himym.webp",
         imdbUrl: "https://www.imdb.com/title/tt0460649/"
     },
@@ -43,11 +43,11 @@ const shows = [
         imdb: 9.0,
         seasons: 9,
         episodes: 201,
-        description: "The everyday lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company.",
+        description: "Inside the Scranton branch of Dunder Mifflin, a group of normal coworkers somehow turns every workday into complete chaos.",
         image: "./images/shows/the-office.webp",
         imdbUrl: "https://www.imdb.com/title/tt0386676/"
     },
-        {
+    {
         id: "the-grand-tour",
         title: "The Grand Tour",
         status: "Finished",
@@ -55,7 +55,7 @@ const shows = [
         imdb: 8.7,
         seasons: 6,
         episodes: 47,
-        description: "Jeremy Clarkson, Richard Hammond and James May are back with a show about adventure, excitement and friendship... as long as you accept that the people you call friends are also the ones you find extremely annoying. Sometimes it's even a show about cars.",
+        description: "Three longtime friends travel the world, take on crazy challenges, argue about everything, and sometimes remember that the show is about cars.",
         image: "./images/shows/the-grand-tour.webp",
         imdbUrl: "https://www.imdb.com/title/tt5712554/"
     },
@@ -67,7 +67,7 @@ const shows = [
         imdb: 8.6,
         seasons: 8,
         episodes: 96,
-        description: "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
+        description: "By day, Dexter Morgan helps Miami police solve murders; by night, he follows a dark code of his own and hunts killers.",
         image: "./images/shows/dexter.webp",
         imdbUrl: "https://www.imdb.com/title/tt0773262/"
     },
@@ -79,7 +79,7 @@ const shows = [
         imdb: 8.5,
         seasons: 4,
         episodes: 45,
-        description: "A young programmer, Elliot, suffers from a debilitating anti-social disorder and decides that he can only connect to people by hacking them. He wields his skills as a weapon to protect the people that he cares about",
+        description: "A lonely cybersecurity engineer is pulled into a secret revolution, where hacking the world's biggest company is only the beginning.",
         image: "./images/shows/mr-robot.webp",
         imdbUrl: "https://www.imdb.com/title/tt4158110/"
     },
@@ -91,9 +91,9 @@ const shows = [
         imdb: 8.2,
         seasons: 5,
         episodes: 48,
-        description: "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose.",
+        description: "A mysterious mastermind brings together a group of criminals for an impossible heist that quickly becomes much more than just a robbery.",
         image: "./images/shows/money-heist.webp",
-        imdbUrl: "https://www.imdb.com/title/tt6468322//"
+        imdbUrl: "https://www.imdb.com/title/tt6468322/"
     },
     {
         id: "friends",
@@ -103,11 +103,11 @@ const shows = [
         imdb: 8.8,
         seasons: 10,
         episodes: 236,
-        description: "Six young people from New York City, on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.",
+        description: "Six friends deal with love, careers, heartbreak, and adult life in New York while always finding their way back to each other.",
         image: "./images/shows/friends.webp",
         imdbUrl: "https://www.imdb.com/title/tt0108778/"
     },
-        {
+    {
         id: "better-call-saul",
         title: "Better Call Saul",
         status: "Finished",
@@ -115,11 +115,11 @@ const shows = [
         imdb: 9.0,
         seasons: 6,
         episodes: 63,
-        description: "Albuquerque lawyer Jimmy McGill scrapes for clients and respect, but every win drags him closer to shady deals, dangerous players, and the alter ego Saul Goodman.",
+        description: "Before becoming Saul Goodman, struggling lawyer Jimmy McGill slowly finds himself pulled into a world where every shortcut comes with a cost.",
         image: "./images/shows/better-call-saul.webp",
         imdbUrl: "https://www.imdb.com/title/tt3032476/"
     },
-        {
+    {
         id: "chernobyl",
         title: "Chernobyl",
         status: "Finished",
@@ -127,7 +127,7 @@ const shows = [
         imdb: 9.3,
         seasons: 1,
         episodes: 5,
-        description: "In April 1986, the city of Chernobyl in the Soviet Union suffers one of the worst nuclear disasters in the history of mankind. Consequently, many heroes put their lives on the line in the following days, weeks and months.",
+        description: "After a terrible nuclear disaster, scientists, firefighters, and ordinary people race against time to find the truth and limit the damage.",
         image: "./images/shows/chernobyl.webp",
         imdbUrl: "https://www.imdb.com/title/tt7366338/"
     },
@@ -139,7 +139,7 @@ const shows = [
         imdb: 9.3,
         seasons: 6,
         episodes: 60,
-        description: "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+        description: "Through cops, criminals, politicians, and ordinary people, Baltimore shows how an entire city becomes trapped in its own broken systems.",
         image: "./images/shows/the-wire.webp",
         imdbUrl: "https://www.imdb.com/title/tt0306414/"
     },
@@ -151,10 +151,11 @@ const shows = [
         imdb: 9.2,
         seasons: 6,
         episodes: 86,
-        description: "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads",
+        description: "Mob boss Tony Soprano tries to hold together his family, his crime empire, and his increasingly troubled state of mind.",
         image: "./images/shows/the-sopranos.webp",
         imdbUrl: "https://www.imdb.com/title/tt0141842/"
     },
+
     {
         id: "sons-of-anarchy",
         title: "Sons Of Anarchy",
@@ -163,7 +164,7 @@ const shows = [
         imdb: 8.5,
         seasons: 7,
         episodes: 92,
-        description: "A biker struggles to balance being a father and being involved in an outlaw motorcycle club.",
+        description: "As a biker and family man, Jax Teller finds himself torn between protecting his loved ones and staying loyal to his outlaw motorcycle club.",
         image: "./images/shows/sons-of-anarchy.webp",
         imdbUrl: "https://www.imdb.com/title/tt1124373/"
     },
@@ -175,7 +176,7 @@ const shows = [
         imdb: 8.2,
         seasons: 7,
         episodes: 61,
-        description: "The messy lives, loves, delirious highs and inevitable lows of a group of teenage friends in Bristol.",
+        description: "A group of teenagers in Bristol deal with friendship, love, parties, heartbreak, and all the chaos that comes with growing up.",
         image: "./images/shows/skins.webp",
         imdbUrl: "https://www.imdb.com/title/tt0840196/"
     },
@@ -187,7 +188,7 @@ const shows = [
         imdb: 8.6,
         seasons: 5,
         episodes: 42,
-        description: "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+        description: "When a young boy disappears, his friends uncover secret experiments, terrifying creatures, and a mysterious girl with special powers.",
         image: "./images/shows/stranger-things.webp",
         imdbUrl: "https://www.imdb.com/title/tt4574334/"
     },
@@ -199,7 +200,7 @@ const shows = [
         imdb: 9.1,
         seasons: 4,
         episodes: 89,
-        description: "Humanity fights for survival behind enormous walls as terrifying Titans threaten to wipe out the last remnants of civilization.",
+        description: "Behind huge walls, humanity fights for survival against terrifying Titans while slowly uncovering the truth about their world.",
         image: "./images/shows/attack-on-titan.webp",
         imdbUrl: "https://www.imdb.com/title/tt2560140/"
     },
@@ -211,7 +212,7 @@ const shows = [
         imdb: 8.8,
         seasons: 4,
         episodes: 30,
-        description: "An anthology crime drama in which different detectives investigate disturbing and complex cases across different locations and time periods.",
+        description: "Across different places and time periods, troubled detectives are drawn into dark cases that reveal as much about themselves as their crimes.",
         image: "./images/shows/true-decective.webp",
         imdbUrl: "https://www.imdb.com/title/tt2356777/"
     },
@@ -223,7 +224,7 @@ const shows = [
         imdb: 8.7,
         seasons: 3,
         episodes: 34,
-        description: "An American football coach is hired to manage a struggling English soccer team despite having no experience with the sport.",
+        description: "An endlessly positive American football coach takes charge of a struggling English soccer team despite knowing almost nothing about the sport.",
         image: "./images/shows/ted-lasso.webp",
         imdbUrl: "https://www.imdb.com/title/tt10986410/"
     },
@@ -235,7 +236,7 @@ const shows = [
         imdb: 8.6,
         seasons: 4,
         episodes: 41,
-        description: "Two cousins navigate the Atlanta rap scene while dealing with ambition, money, relationships, and the surreal realities of everyday life.",
+        description: "Two cousins chase success in Atlanta's rap scene while dealing with money, ambition, relationships, and the increasingly strange world around them.",
         image: "./images/shows/atlanta.webp",
         imdbUrl: "https://www.imdb.com/title/tt4288182/"
     },
@@ -247,7 +248,7 @@ const shows = [
         imdb: 9.0,
         seasons: 1,
         episodes: 10,
-        description: "Dexter Morgan returns as he attempts to rebuild his life while confronting the consequences of his past and the darkness that continues to follow him.",
+        description: "Dexter Morgan returns to a world he thought he had left behind, forced to face his past while trying to control the darkness within.",
         image: "./images/shows/dexter-resurrection.webp",
         imdbUrl: "https://www.imdb.com/title/tt33043892/"
     },
@@ -259,7 +260,7 @@ const shows = [
         imdb: 9.5,
         seasons: 5,
         episodes: 62,
-        description: "A high school chemistry teacher diagnosed with cancer turns to manufacturing methamphetamine to secure his family's financial future.",
+        description: "After a life-changing diagnosis, a quiet chemistry teacher enters the drug trade and slowly becomes someone no one saw coming.",
         image: "./images/shows/breaking-bad.webp",
         imdbUrl: "https://www.imdb.com/title/tt0903747/"
     },
@@ -271,7 +272,7 @@ const shows = [
         imdb: 9.2,
         seasons: 8,
         episodes: 73,
-        description: "Noble families battle for control of the Iron Throne while an ancient supernatural threat slowly returns from beyond the Wall.",
+        description: "As powerful families fight for the Iron Throne, an ancient threat quietly grows beyond the Wall and prepares to change everything.",
         image: "./images/shows/game-of-thrones.webp",
         imdbUrl: "https://www.imdb.com/title/tt0944947/"
     },
@@ -283,10 +284,11 @@ const shows = [
         imdb: 8.1,
         seasons: 11,
         episodes: 177,
-        description: "A group of survivors struggles to stay alive in a post-apocalyptic world overrun by zombies and increasingly dangerous human communities.",
+        description: "In a world overrun by the dead, a group of survivors searches for safety while discovering that the living can be even more dangerous.",
         image: "./images/shows/the-walking-dead.webp",
         imdbUrl: "https://www.imdb.com/title/tt1520211/"
     },
+
     {
         id: "you",
         title: "You",
@@ -295,7 +297,7 @@ const shows = [
         imdb: 7.6,
         seasons: 5,
         episodes: 50,
-        description: "A dangerously obsessive man uses charm, manipulation, and violence to insert himself into the lives of the women he becomes obsessed with.",
+        description: "Joe Goldberg falls deeply in love, but his obsession quickly turns into control, stalking, and a dangerous need to control the people around him.",
         image: "./images/shows/you.webp",
         imdbUrl: "https://www.imdb.com/title/tt7335184/"
     },
@@ -307,7 +309,7 @@ const shows = [
         imdb: 8.0,
         seasons: 4,
         episodes: 32,
-        description: "A couple who are unable to have children decide to navigate the unpredictable and emotional world of adoption.",
+        description: "After learning they cannot have children naturally, a loving couple takes on the messy, funny, and emotional journey of adoption.",
         image: "./images/shows/trying.webp",
         imdbUrl: "https://www.imdb.com/title/tt10982034/"
     },
@@ -319,7 +321,7 @@ const shows = [
         imdb: 8.2,
         seasons: 3,
         episodes: 32,
-        description: "A grieving therapist begins breaking professional boundaries and telling his clients exactly what he thinks, with unexpected consequences.",
+        description: "While struggling with his own grief, a therapist starts ignoring the rules and telling his patients exactly what he really thinks.",
         image: "./images/shows/shrinking.webp",
         imdbUrl: "https://www.imdb.com/title/tt15677150/"
     },
@@ -331,7 +333,7 @@ const shows = [
         imdb: 8.0,
         seasons: 1,
         episodes: 10,
-        description: "A newly appointed movie studio head struggles to keep the business alive while balancing artistic ambition, corporate pressure, and Hollywood chaos.",
+        description: "A newly appointed studio boss tries to survive Hollywood, where creative dreams, company demands, and endless chaos collide.",
         image: "./images/shows/the-studio.webp",
         imdbUrl: "https://www.imdb.com/title/tt23649128/"
     },
@@ -343,7 +345,7 @@ const shows = [
         imdb: 8.7,
         seasons: 2,
         episodes: 12,
-        description: "A witty and emotionally complicated woman navigates love, grief, family, and life in London while frequently breaking the fourth wall.",
+        description: "A sharp-witted woman tries to keep her life together while dealing with love, grief, family, and the mess she carries inside.",
         image: "./images/shows/fleabag.webp",
         imdbUrl: "https://www.imdb.com/title/tt5687612/"
     },
@@ -355,7 +357,7 @@ const shows = [
         imdb: 8.2,
         seasons: 4,
         episodes: 32,
-        description: "An awkward teenager with a sex therapist mother teams up with a classmate to secretly run a sex advice clinic at their high school.",
+        description: "With his sex-therapist mother as an unlikely guide, an awkward teenager starts a secret advice clinic and soon finds himself helping everyone but himself.",
         image: "./images/shows/sex-education.webp",
         imdbUrl: "https://www.imdb.com/title/tt7767422/"
     },
@@ -367,7 +369,7 @@ const shows = [
         imdb: 8.4,
         seasons: 8,
         episodes: 153,
-        description: "A talented but immature detective and his diverse group of coworkers solve crimes while dealing with life inside a Brooklyn police precinct.",
+        description: "A talented but immature detective and his unusual coworkers solve crimes while turning life inside a Brooklyn precinct into constant chaos.",
         image: "./images/shows/brooklyn-nine-nine.webp",
         imdbUrl: "https://www.imdb.com/title/tt2467372/"
     },
@@ -379,7 +381,7 @@ const shows = [
         imdb: 8.3,
         seasons: 5,
         episodes: 90,
-        description: "A structural engineer deliberately gets himself imprisoned to help his wrongly convicted brother escape from death row.",
+        description: "When his brother is sentenced to death for a crime he did not commit, a structural engineer deliberately gets himself imprisoned to break him out.",
         image: "./images/shows/prison-break.webp",
         imdbUrl: "https://www.imdb.com/title/tt0455275/"
     },
@@ -391,7 +393,7 @@ const shows = [
         imdb: 7.8,
         seasons: 1,
         episodes: 10,
-        description: "The story of serial killer Jeffrey Dahmer is told from the perspective of his victims and the systemic failures that allowed his crimes to continue.",
+        description: "The story of Jeffrey Dahmer unfolds through the lives of his victims and the failures that allowed his crimes to continue for years.",
         image: "./images/shows/monster-the-jeffrey-dahmer-story.webp",
         imdbUrl: "https://www.themoviedb.org/tv/113988-dahmer-monster-the-jeffrey-dahmer-story"
     },
@@ -403,7 +405,7 @@ const shows = [
         imdb: 9.0,
         seasons: 4,
         episodes: 13,
-        description: "A modern-day Sherlock Holmes and Dr. John Watson solve complex crimes in London using brilliant deduction and unconventional methods.",
+        description: "In modern-day London, Sherlock Holmes and John Watson form an unlikely partnership as they solve seemingly impossible crimes.",
         image: "./images/shows/sherlock.webp",
         imdbUrl: "https://www.imdb.com/title/tt1475582/"
     },
@@ -415,7 +417,7 @@ const shows = [
         imdb: 8.1,
         seasons: 1,
         episodes: 4,
-        description: "When a 13-year-old is accused of the murder of a classmate, his family, therapist and the detective in charge are all left asking: what really happened?",
+        description: "When a 13-year-old boy is accused of murder, his family and investigators are forced to face questions about what happened and why.",
         image: "./images/shows/adolescence.webp",
         imdbUrl: "https://www.imdb.com/title/tt31806037/"
     },
@@ -427,10 +429,11 @@ const shows = [
         imdb: 7.6,
         seasons: 1,
         episodes: 8,
-        description: "A determined young man faces unexpected challenges and complicated relationships as his life takes an unpredictable turn.",
+        description: "A young man trying to find his place in life is pulled through unexpected challenges, difficult relationships, and choices he never saw coming.",
         image: "./images/shows/rooster.webp",
         imdbUrl: "https://www.imdb.com/title/tt32420734/"
     },
+
     {
         id: "parks-and-recreation",
         title: "Parks and Recreation",
@@ -439,7 +442,7 @@ const shows = [
         imdb: 8.6,
         seasons: 7,
         episodes: 126,
-        description: "An enthusiastic public official works tirelessly to improve her small Indiana town alongside her eccentric coworkers in the Parks Department.",
+        description: "Leslie Knope works hard to make her small town better, but with her unusual coworkers, even a simple project can quickly turn into an unexpected adventure.",
         image: "./images/shows/parks-and-recreation.webp",
         imdbUrl: "https://www.imdb.com/title/tt1266020/"
     },
@@ -451,7 +454,7 @@ const shows = [
         imdb: 8.0,
         seasons: 1,
         episodes: 10,
-        description: "Ten years after disappearing, Dexter Morgan is living under a new identity in a small town, but his dark urges begin to resurface.",
+        description: "Years after disappearing, Dexter starts a quiet new life under a different name, but the darkness he left behind slowly begins to find its way back.",
         image: "./images/shows/dexter-new-blood.webp",
         imdbUrl: "https://www.imdb.com/title/tt14164730/"
     },
@@ -463,7 +466,7 @@ const shows = [
         imdb: 8.0,
         seasons: 4,
         episodes: 85,
-        description: "A determined high school student sets out to become a great volleyball player despite his short height, joining a team filled with talented rivals and friends.",
+        description: "Despite his short height, Hinata dreams of becoming a great volleyball player and joins a team where strong rivals and new friendships push him to grow.",
         image: "./images/shows/haikyuu.webp",
         imdbUrl: "https://www.imdb.com/title/tt3398540/"
     },
@@ -475,7 +478,7 @@ const shows = [
         imdb: 7.1,
         seasons: 1,
         episodes: 8,
-        description: "Before the events of Money Heist, Berlin gathers a talented group of criminals in Paris to execute one of his most ambitious heists.",
+        description: "Before Money Heist, Berlin gathers a talented crew in Paris and sets his sights on one of the biggest and most dangerous heists of his career.",
         image: "./images/shows/berlin.webp",
         imdbUrl: "https://www.imdb.com/title/tt16288804/"
     },
@@ -487,7 +490,7 @@ const shows = [
         imdb: 8.3,
         seasons: 1,
         episodes: 10,
-        description: "A fixer finds himself caught between two powerful crime families as their rivalry threatens to explode into an all-out war.",
+        description: "A skilled fixer is caught between two powerful crime families, where old fights and growing tensions threaten to turn their conflict into an all-out war.",
         image: "./images/shows/mobland.webp",
         imdbUrl: "https://www.imdb.com/title/tt31510819/"
     },
@@ -499,7 +502,7 @@ const shows = [
         imdb: 8.6,
         seasons: 1,
         episodes: 8,
-        description: "Following the events of The Batman, Oswald Cobblepot rises through Gotham City's criminal underworld in his pursuit of power and control.",
+        description: "After the events of The Batman, Oswald Cobblepot begins his rise through Gotham's criminal underworld, determined to turn every chance into power.",
         image: "./images/shows/the-penguin.webp",
         imdbUrl: "https://www.imdb.com/title/tt15435876/"
     },
@@ -511,7 +514,7 @@ const shows = [
         imdb: 8.1,
         seasons: 1,
         episodes: 10,
-        description: "A young Dexter Morgan struggles to control his violent urges while learning from his father how to channel his darkness according to a strict code.",
+        description: "Young Dexter struggles to understand the darkness inside him while his father teaches him how to control it and follow a strict code.",
         image: "./images/shows/dexter-original-sin.webp",
         imdbUrl: "https://www.imdb.com/title/tt32252772/"
     },
@@ -523,7 +526,7 @@ const shows = [
         imdb: 7.6,
         seasons: 3,
         episodes: 24,
-        description: "In a distant future where humanity has lost the ability to see, a warrior must protect his family after children are born with the gift of sight.",
+        description: "In a distant future where humanity has lost the ability to see, a warrior must protect his family when two children are born with the strange gift of sight.",
         image: "./images/shows/see.webp",
         imdbUrl: "https://www.imdb.com/title/tt7949218/"
     },
@@ -535,7 +538,7 @@ const shows = [
         imdb: 8.5,
         seasons: 6,
         episodes: 89,
-        description: "The legendary Norse hero Ragnar Lothbrok rises from farmer to warrior and leader while exploring new lands and challenging powerful rulers.",
+        description: "Ragnar Lothbrok begins as a farmer with dreams of exploring distant lands, eventually rising into a famous warrior and leader who changes the fate of his people.",
         image: "./images/shows/vikings.webp",
         imdbUrl: "https://www.imdb.com/title/tt2306299/"
     },
@@ -547,7 +550,7 @@ const shows = [
         imdb: 8.7,
         seasons: 3,
         episodes: 30,
-        description: "The rise and fall of powerful drug cartels is told through the stories of criminals, law enforcement agents, and the people caught between them.",
+        description: "The rise and fall of powerful drug groups unfolds through the criminals, police officers, and ordinary people caught in the middle of their violent world.",
         image: "./images/shows/narcos.webp",
         imdbUrl: "https://www.imdb.com/title/tt2707408/"
     },
@@ -559,7 +562,7 @@ const shows = [
         imdb: 8.7,
         seasons: 6,
         episodes: 36,
-        description: "A ruthless crime boss leads his ambitious family through the dangerous world of post-World War I Birmingham.",
+        description: "Thomas Shelby leads his ambitious family through post-war Birmingham, building a crime empire while facing dangerous rivals, political pressure, and betrayal.",
         image: "./images/shows/peaky-blinders.webp",
         imdbUrl: "https://www.imdb.com/title/tt2442560/"
     },
@@ -571,7 +574,7 @@ const shows = [
         imdb: 7.8,
         seasons: 1,
         episodes: 16,
-        description: "A group of teenagers navigates the awkward, chaotic, and often horrifying realities of puberty with the help of bizarre hormone monsters.",
+        description: "A group of teenagers stumbles through the awkward chaos of puberty, dealing with crushes, worries, and strange hormone monsters along the way.",
         image: "./images/shows/big-mouth.webp",
         imdbUrl: "https://www.imdb.com/title/tt21195490/"
     },
@@ -583,7 +586,7 @@ const shows = [
         imdb: 8.0,
         seasons: 6,
         episodes: 93,
-        description: "The Devil abandons Hell and opens a nightclub in Los Angeles, where he becomes involved with a homicide detective and begins solving crimes.",
+        description: "After leaving Hell, Lucifer opens a nightclub in Los Angeles and finds himself drawn into murder cases alongside a detective who slowly sees past his charm.",
         image: "./images/shows/lucifer.webp",
         imdbUrl: "https://www.imdb.com/title/tt4052886/"
     },
@@ -595,7 +598,7 @@ const shows = [
         imdb: 8.9,
         seasons: 1,
         episodes: 37,
-        description: "A brilliant student discovers a supernatural notebook that allows him to kill anyone whose name he writes inside, beginning a deadly battle of wits.",
+        description: "When a brilliant student discovers a supernatural notebook that can kill anyone whose name is written inside, he begins a dangerous battle of intelligence and right and wrong.",
         image: "./images/shows/death-note.webp",
         imdbUrl: "https://www.imdb.com/title/tt0877057/"
     },
@@ -607,7 +610,7 @@ const shows = [
         imdb: 7.9,
         seasons: 3,
         episodes: 22,
-        description: "Hundreds of financially desperate people compete in deadly versions of children's games for an enormous cash prize.",
+        description: "Hundreds of desperate contestants enter a strange competition where familiar children's games become deadly, forcing them to risk everything for a huge prize.",
         image: "./images/shows/squid-game.webp",
         imdbUrl: "https://www.imdb.com/title/tt10919420/"
     },
@@ -619,7 +622,7 @@ const shows = [
         imdb: 7.9,
         seasons: 1,
         episodes: 9,
-        description: "In a world transformed by a mysterious phenomenon, one seemingly ordinary woman may hold the key to saving humanity from an unexpected future.",
+        description: "A strange event changes the world around an ordinary woman, leaving her to find out what happened and why she may be humanity's last hope.",
         image: "./images/shows/pluribus.webp",
         imdbUrl: "https://www.imdb.com/title/tt22202452/"
     },
@@ -631,7 +634,7 @@ const shows = [
         imdb: 7.7,
         seasons: 1,
         episodes: 6,
-        description: "Rick and Michonne attempt to find their way back to each other while surviving a dangerous world and powerful forces standing between them.",
+        description: "Rick and Michonne fight through a dangerous new world while searching for a way back to each other, facing powerful groups determined to keep them apart.",
         image: "./images/shows/the-ones-who-live.webp",
         imdbUrl: "https://www.imdb.com/title/tt9859436/"
     },
@@ -643,7 +646,7 @@ const shows = [
         imdb: 8.5,
         seasons: 5,
         episodes: 40,
-        description: "A group of vigilantes fights back against corrupt superheroes who abuse their extraordinary powers for fame, money, and control.",
+        description: "A group of vigilantes takes on corrupt superheroes who use their powers for fame and control, turning the fight for justice into a brutal and dangerous war.",
         image: "./images/shows/the-boys.webp",
         imdbUrl: "https://www.imdb.com/title/tt1190634/"
     },
@@ -655,7 +658,7 @@ const shows = [
         imdb: 8.5,
         seasons: 1,
         episodes: 7,
-        description: "A young chess prodigy rises through the competitive chess world while struggling with addiction, loneliness, and the pressures of success.",
+        description: "A gifted young chess player rises through the world of chess while dealing with loneliness, addiction, and the pressure of being a great player.",
         image: "./images/shows/the-queens-gambit.webp",
         imdbUrl: "https://www.imdb.com/title/tt10048342/"
     },
@@ -667,7 +670,7 @@ const shows = [
         imdb: 8.6,
         seasons: 3,
         episodes: 27,
-        description: "An imaginative orphan girl is unexpectedly sent to live with an elderly brother and sister on Prince Edward Island.",
+        description: "An imaginative orphan finds a home on Prince Edward Island, where her strong personality slowly changes the lives of the family and community around her.",
         image: "./images/shows/anne-with-an-e.webp",
         imdbUrl: "https://www.imdb.com/title/tt5421602/"
     },
@@ -679,7 +682,7 @@ const shows = [
         imdb: "8.0",
         seasons: 2,
         episodes: 16,
-        description: "Wednesday Addams attends Nevermore Academy, where she investigates mysterious murders while learning to control her emerging psychic abilities.",
+        description: "Wednesday Addams arrives at Nevermore Academy and soon investigates strange murders while uncovering secrets about her unusual powers.",
         image: "./images/shows/wednesday.webp",
         imdbUrl: "https://www.imdb.com/title/tt13443470/"
     },
@@ -691,7 +694,7 @@ const shows = [
         imdb: 8.4,
         seasons: 2,
         episodes: 16,
-        description: "In a post-apocalyptic world devastated by a fungal infection, a hardened survivor must escort a teenage girl across the United States.",
+        description: "Years after a fungal outbreak destroys civilization, a hardened survivor is tasked with taking a teenage girl across a dangerous and broken America.",
         image: "./images/shows/the-last-of-us.webp",
         imdbUrl: "https://www.imdb.com/title/tt3581920/"
     },
@@ -703,7 +706,7 @@ const shows = [
         imdb: 8.2,
         seasons: 1,
         episodes: 16,
-        description: "A woman who was brutally bullied as a child carefully plans an elaborate and patient revenge against those who destroyed her life.",
+        description: "Years after suffering cruel bullying, a woman quietly puts a carefully planned revenge into motion against the people who once destroyed her life.",
         image: "./images/shows/the-glory.webp",
         imdbUrl: "https://www.imdb.com/title/tt21344706/"
     },
@@ -715,7 +718,7 @@ const shows = [
         imdb: 7.7,
         seasons: 1,
         episodes: 8,
-        description: "A respected prosecutor becomes the prime suspect in a shocking murder case, forcing him to fight for his family, career, and innocence.",
+        description: "A respected prosecutor suddenly becomes the main suspect in a murder case, forcing him to fight to protect his family, career, and claim of innocence.",
         image: "./images/shows/presumed-innocent.webp",
         imdbUrl: "https://www.imdb.com/title/tt17677860/"
     },
@@ -727,7 +730,7 @@ const shows = [
         imdb: 8.1,
         seasons: 1,
         episodes: 10,
-        description: "A highly skilled and elusive assassin carries out dangerous contracts while an intelligence officer becomes determined to track him down.",
+        description: "An unknown and highly skilled assassin takes on dangerous jobs while a determined intelligence officer follows his trail and gets closer to him.",
         image: "./images/shows/the-day-of-the-jackal.webp",
         imdbUrl: "https://www.imdb.com/title/tt24053860/"
     },
@@ -739,9 +742,8 @@ const shows = [
         imdb: 7.5,
         seasons: 3,
         episodes: 19,
-        description: "Daryl Dixon washes ashore in France and struggles to find a way back home while becoming involved in a new conflict among survivors.",
+        description: "After washing ashore in France, Daryl searches for a way home but becomes caught up in a new conflict that forces him to choose between survival and helping others.",
         image: "./images/shows/daryl-dixon.webp",
         imdbUrl: "https://www.imdb.com/title/tt13062500/"
     },
-
 ];
