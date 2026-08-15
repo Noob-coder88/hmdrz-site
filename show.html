@@ -41,6 +41,7 @@
                 <a href="./shows.html" class="back_button" id="back-link"> ← Back to shows </a>
                 <article class="show_content">
                     <div class="show_cover">
+                        <div class="image_loader"></div>
                         <img src="" alt="" loading="eager" fetchpriority="high" class="show_cover_img" id="show-cover-img">
                     </div>
                     <div class="show_info">
@@ -92,6 +93,13 @@
     const show = shows.find(show => show.id === showId);
 
     const image = document.getElementById("show-cover-img");
+    const loader = document.querySelector(".image_loader");
+
+    image.onload = () => {
+        image.classList.add("loaded");
+        loader.classList.add("hidden");
+    };
+
     image.src = show.image;
     image.alt = show.title;
 
