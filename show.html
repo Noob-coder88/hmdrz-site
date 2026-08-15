@@ -98,8 +98,11 @@
     image.alt = show.title;
 
     image.onload = () => {
-        loader.style.display = "none";
         image.classList.add("loaded");
+
+        setTimeout(() => {
+            loader.classList.add("hide");
+        }, 150);
     };
 
     image.src = show.image;

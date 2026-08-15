@@ -233,13 +233,13 @@ body {
         max-width: 28rem;
         object-fit: cover;
 
-        display: none;
+        opacity: 0;
+        transition: opacity 0.35s ease;
     }
 
     .show_cover_img.loaded {
-        display: block;
+        opacity: 1;
     }
-
     .image_loader {
     width: 35px;
     aspect-ratio: 1;
@@ -254,6 +254,12 @@ body {
         var(--c) 100% 100%;
     background-size: 20% calc(200% + 20px);
     animation:l4 1s infinite linear;
+    transition: opacity 0.25s ease;
+    }
+
+    .image_loader.hide {
+        opacity: 0;
+        pointer-events: none;
     }
     @keyframes l4 {
         33%  {background-position: 0% 50%,50% 100%,100% 100%}
