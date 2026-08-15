@@ -246,6 +246,7 @@ body {
         var(--c) 100% 100%;
     background-size: 20% calc(200% + 20px);
     animation:l4 1s infinite linear;
+    transition: all 500ms ease;
     }
     @keyframes l4 {
         33%  {background-position: 0% 50%,50% 100%,100% 100%}
