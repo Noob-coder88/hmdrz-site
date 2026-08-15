@@ -92,27 +92,16 @@
 
     const show = shows.find(show => show.id === showId);
 
-    // const image = document.getElementById("show-cover-img");
-    // const loader = document.querySelector(".image_loader");
-    // image.alt = show.title;
-    // image.onload = () => {
-    //     image.classList.add("loaded");
-
-    //     setTimeout(() => {
-    //         loader.classList.add("hide");
-    //     }, 150);
-    // };
-    // image.src = show.image;
     const image = document.getElementById("show-cover-img");
     const loader = document.querySelector(".image_loader");
-
+    image.alt = show.title;
     image.onload = () => {
         image.classList.add("loaded");
-        loader.classList.add("hidden");
+        setTimeout(() => {
+            loader.classList.add("hide");
+        }, 150);
     };
-
     image.src = show.image;
-    image.alt = show.title;
 
     document.getElementById("show-title").textContent = show.title;
     document.getElementById("show-status").textContent = show.status;
