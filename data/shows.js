@@ -54,7 +54,7 @@ const shows = [
         myrate: 10,
         imdb: 8.7,
         seasons: 6,
-        episodes: 47,
+        episodes: 46,
         description: "Three longtime friends travel the world, take on crazy challenges, argue about everything, and sometimes remember that the show is about cars.",
         image: "./images/shows/the-grand-tour.webp",
         imdbUrl: "https://www.imdb.com/title/tt5712554/"
@@ -198,8 +198,8 @@ const shows = [
         status: "Finished",
         myrate: 9,
         imdb: 9.1,
-        seasons: 4,
-        episodes: 89,
+        seasons: 5,
+        episodes: 98,
         description: "Behind huge walls, humanity fights for survival against terrifying Titans while slowly uncovering the truth about their world.",
         image: "./images/shows/attack-on-titan.webp",
         imdbUrl: "https://www.imdb.com/title/tt2560140/"
