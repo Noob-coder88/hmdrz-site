@@ -206,7 +206,10 @@ body {
     font-size: 1.4rem;
     text-align: right;
 }
-
+.watchlist-title{
+    font-size: 2.2rem;
+    padding: 2rem;
+}
 /* Show page */
 .show{
     padding: 4rem 1rem;
@@ -317,6 +320,7 @@ body {
     padding: 4rem 2rem 50rem 2rem;
         line-height: 1.6;
 }
+
 @media (max-width: 576px) {
     .container{
         max-width: 100%;

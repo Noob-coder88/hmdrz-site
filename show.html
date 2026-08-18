@@ -38,7 +38,7 @@
     <main class="main">
         <div class="container">
             <section class="show">
-                <a href="./shows.html" class="back_button"> ← Back to shows </a>
+                <a href="./shows.html" class="back_button" id="back-link"> ← Back to shows </a>
                 <article class="show_content">
                     <div class="show_cover">
                         <div class="image_loader"></div>
@@ -102,6 +102,12 @@
         }, 150);
     };
     image.src = show.image;
+
+    document.getElementById("back-link").addEventListener("click", (e) => {
+    e.preventDefault();
+    history.back();
+    });
+
     document.getElementById("page-title").textContent= show.title +"." ;
     document.getElementById("show-title").textContent = show.title;
     document.getElementById("show-status").textContent = show.status;

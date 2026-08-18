@@ -429,7 +429,7 @@ const shows = [
         imdb: 7.6,
         seasons: 1,
         episodes: 8,
-        description: "On a college campus, an author navigates a complicated relationship with his daughter.",
+        description: "An author navigates a complicated relationship with his daughter while working on a college campus.",
         image: "./images/shows/rooster.webp",
         imdbUrl: "https://www.imdb.com/title/tt32420734/"
     },
@@ -594,11 +594,11 @@ const shows = [
         id: "death-note",
         title: "Death Note",
         status: "Finished",
-        myrate: 7,
+        myrate: 8,
         imdb: 8.9,
         seasons: 1,
         episodes: 37,
-        description: "When a brilliant student discovers a supernatural notebook that can kill anyone whose name is written inside, he begins a dangerous battle of intelligence and right and wrong.",
+        description: "A brilliant student finds a deadly notebook and gets caught in a dangerous battle of wits and morality.",
         image: "./images/shows/death-note.webp",
         imdbUrl: "https://www.imdb.com/title/tt0877057/"
     },
@@ -641,7 +641,7 @@ const shows = [
     {
         id: "the-boys",
         title: "The Boys",
-        status: "Dropped",
+        status: "Paused",
         myrate: 7,
         imdb: 8.5,
         seasons: 5,
@@ -734,16 +734,52 @@ const shows = [
         image: "./images/shows/the-day-of-the-jackal.webp",
         imdbUrl: "https://www.imdb.com/title/tt24053860/"
     },
-    {
-        id: "daryl-dixon",
-        title: "The Walking Dead: Daryl Dixon",
-        status: "Dropped",
-        myrate: 6,
-        imdb: 7.5,
-        seasons: 3,
-        episodes: 19,
-        description: "After washing ashore in France, Daryl searches for a way home but becomes caught up in a new conflict that forces him to choose between survival and helping others.",
-        image: "./images/shows/daryl-dixon.webp",
-        imdbUrl: "https://www.imdb.com/title/tt13062500/"
-    },
+{
+    id: "band-of-brothers",
+    title: "Band of Brothers",
+    status: "Watchlist",
+    myrate: "--",
+    imdb: 9.4,
+    seasons: 1,
+    episodes: 10,
+    description: "A group of young soldiers enters World War II together, facing fear, loss, and war while becoming more like brothers along the way.",
+    image: "./images/shows/band-of-brothers.webp",
+    imdbUrl: "https://www.imdb.com/title/tt0185906/"
+},
+{
+    id: "a-knight-of-the-seven-kingdom",
+    title: "A Knight of the Seven Kingdoms",
+    status: "Watchlist",
+    myrate: "--",
+    imdb: 8.6,
+    seasons: 1,
+    episodes: 6,
+    description: "A young knight and his unlikely squire travel across Westeros, finding trouble, friendship, and adventure wherever they go.",
+    image: "./images/shows/a-knight-of-the-seven-kingdom.webp",
+    imdbUrl: "https://www.imdb.com/title/tt27497448/"
+},
+{
+    id: "when-they-see-us",
+    title: "When They See Us",
+    status: "Watchlist",
+    myrate: "--",
+    imdb: 8.8,
+    seasons: 1,
+    episodes: 4,
+    description: "Five teenagers see their lives change forever after being wrongly accused of a crime they did not commit.",
+    image: "./images/shows/when-they-see-us.webp",
+    imdbUrl: "https://www.imdb.com/title/tt7137906/"
+},
+{
+    id: "mindhunter",
+    title: "Mindhunter",
+    status: "Watchlist",
+    myrate: "--",
+    imdb: 8.6,
+    seasons: 2,
+    episodes: 19,
+    description: "Two FBI agents begin talking to serial killers to understand their minds, opening a new way of looking at murder.",
+    image: "./images/shows/mindhunter.webp",
+    imdbUrl: "https://www.imdb.com/title/tt5290382/"
+},
 ];
