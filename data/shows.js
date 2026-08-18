@@ -429,7 +429,7 @@ const shows = [
         imdb: 7.6,
         seasons: 1,
         episodes: 8,
-        description: "A young man trying to find his place in life is pulled through unexpected challenges, difficult relationships, and choices he never saw coming.",
+        description: "On a college campus, an author navigates a complicated relationship with his daughter.",
         image: "./images/shows/rooster.webp",
         imdbUrl: "https://www.imdb.com/title/tt32420734/"
     },

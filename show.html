@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/app.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
-    <title>Shows.</title>
+    <title id="page-title">Shows.</title>
 </head>
 <body>
     <header class="header">
@@ -18,16 +18,16 @@
                 <section class="nav_content">
                     <div class="nav_logo">
                         <a href="./index.html" class="nav_button">
-                            <img src="./images/logo.png" alt="H" class="nav_logo_img">
+                            <img src="./images/logo.png" alt="Logo" class="nav_logo_img">
                         </a>
                     </div>
                     <div class="nav_buttons">
                         <ul class="nav_list">
                             <li class="nav_item">
-                                <a href="./index.html" class="nav_button">Home</a>
+                                <a href="./index.html" class="nav_button">home.</a>
                             </li>
                             <li class="nav_item">
-                                <a href="./shows.html" class="nav_button nav_button--shows">Shows</a>
+                                <a href="./shows.html" class="nav_button nav_button--shows">Shows.</a>
                             </li>
                         </ul>
                     </div>
@@ -38,7 +38,7 @@
     <main class="main">
         <div class="container">
             <section class="show">
-                <a href="./shows.html" class="back_button" id="back-link"> ← Back to shows </a>
+                <a href="./shows.html" class="back_button"> ← Back to shows </a>
                 <article class="show_content">
                     <div class="show_cover">
                         <div class="image_loader"></div>
@@ -46,11 +46,11 @@
                     </div>
                     <div class="show_info">
                         <h1 id="show-title" class="show_title" ></h1>
-                        <p class="show_status">     Status:         <span id="show-status"></span>     </p>
-                        <p class="show_myrate">     My rating:      <span id="show-myrate"></span>  </p>
-                        <p class="show_imdb">       IMDb:           <span id="show-imdb"></span>       </p>
+                        <p class="show_status">     Status:        <span id="show-status"></span>     </p>
+                        <p class="show_myrate">     My rating:     <span id="show-myrate"></span>     </p>
+                        <p class="show_imdb">       IMDb:          <span id="show-imdb"></span>       </p>
                         <p class="show_seasons">   Seasons:        <span id="show-seasons"></span>    </p>
-                        <p class="show_episodes">   Episodes:       <span id="show-episodes"></span>   </p>
+                        <p class="show_episodes">   Episodes:      <span id="show-episodes"></span>   </p>
                     </div>
                     <div class="show_about">
                         <h2 class="show_about_title">About</h2>
@@ -102,7 +102,7 @@
         }, 150);
     };
     image.src = show.image;
-
+    document.getElementById("page-title").textContent= show.title +"." ;
     document.getElementById("show-title").textContent = show.title;
     document.getElementById("show-status").textContent = show.status;
     document.getElementById("show-myrate").textContent = show.myrate;
@@ -111,10 +111,6 @@
     document.getElementById("show-episodes").textContent = show.episodes;
     document.getElementById("show-description").textContent = show.description;
     document.getElementById("show-imdb-link").href = show.imdbUrl;
-    document.getElementById("back-link").addEventListener("click", (e) => {
-        e.preventDefault();
-        history.back();
-    });
 </script>
 </body>
 </html>

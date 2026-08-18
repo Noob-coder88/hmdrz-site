@@ -88,10 +88,11 @@ body {
 .hero{
     padding: 4rem 0 2rem 2rem;
 }
-.currently{
+.shows{
+
     padding: 2em 0 2rem 2rem;
 }
-.shows{
+.currently{
     padding: 2rem 0 4rem 2rem;
 }
 .main_contect{
@@ -103,11 +104,14 @@ body {
 }
 .main_description{
     font-size: 1.8rem;
-        margin-bottom: 0;
+    margin: 0;
+    line-height: 1.6;
 }
 .shows_button{
     color: var(--color-accent);
-
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    display: inline-block;
 }
 
 /* FOOTER */
@@ -156,6 +160,7 @@ body {
 }
 .shows_about{
     padding: 4rem 0 2rem 2rem;
+    line-height: 1.6;
 }
 .shows_about_title{
     font-size: 2.4rem;
@@ -308,7 +313,10 @@ body {
     line-height: 1.5;
     height: 14rem;
 }
-
+.temp{
+    padding: 4rem 2rem 50rem 2rem;
+        line-height: 1.6;
+}
 @media (max-width: 576px) {
     .container{
         max-width: 100%;
