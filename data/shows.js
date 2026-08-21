@@ -3,7 +3,7 @@ const shows = [
         id: "seinfeld",
         title: "Seinfeld",
         status: "Finished",
-        myrate: 9,
+        myrate: 8,
         imdb: 8.8,
         seasons: 9,
         episodes: 180,
@@ -642,7 +642,7 @@ const shows = [
         id: "the-boys",
         title: "The Boys",
         status: "Paused",
-        myrate: 7,
+        myrate: 8,
         imdb: 8.5,
         seasons: 5,
         episodes: 40,
@@ -733,6 +733,18 @@ const shows = [
         description: "An unknown and highly skilled assassin takes on dangerous jobs while a determined intelligence officer follows his trail and gets closer to him.",
         image: "./images/shows/the-day-of-the-jackal.webp",
         imdbUrl: "https://www.imdb.com/title/tt24053860/"
+    },
+    {
+        id: "curb-your-enthusiasm",
+        title: "Curb Your Enthusiasm",
+        status: "Watchlist",
+        myrate: "--",
+        imdb: 8.8,
+        seasons: 12,
+        episodes: 120,
+        description: "Larry David plays a version of himself, stumbling through everyday life and finding a way to make every situation worse.",
+        image: "./images/shows/curb-your-enthusiasm.webp",
+        imdbUrl: "https://www.imdb.com/title/tt0264235/"
     },
 {
     id: "band-of-brothers",

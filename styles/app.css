@@ -184,6 +184,9 @@ body {
     color: var(--color-text);
     box-shadow: var(--color-surface) 0 .2rem 0;
 }
+.Watching{
+    margin-bottom: 3rem;
+}
 .shows_item:last-child{
     box-shadow: none;
 }
