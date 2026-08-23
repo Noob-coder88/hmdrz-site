@@ -641,7 +641,7 @@ const shows = [
     {
         id: "the-boys",
         title: "The Boys",
-        status: "Paused",
+        status: "Finished",
         myrate: 8,
         imdb: 8.5,
         seasons: 5,
