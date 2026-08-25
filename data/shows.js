@@ -761,8 +761,8 @@ const shows = [
 {
     id: "a-knight-of-the-seven-kingdom",
     title: "A Knight of the Seven Kingdoms",
-    status: "Watchlist",
-    myrate: "--",
+    status: "Finished",
+    myrate: "7",
     imdb: 8.6,
     seasons: 1,
     episodes: 6,
@@ -773,8 +773,8 @@ const shows = [
 {
     id: "when-they-see-us",
     title: "When They See Us",
-    status: "Watchlist",
-    myrate: "--",
+    status: "Finished",
+    myrate: "8",
     imdb: 8.8,
     seasons: 1,
     episodes: 4,
