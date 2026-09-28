@@ -737,8 +737,8 @@ const shows = [
     {
         id: "curb-your-enthusiasm",
         title: "Curb Your Enthusiasm",
-        status: "Watching",
-        myrate: "--",
+        status: "Finished",
+        myrate: "8",
         imdb: 8.8,
         seasons: 12,
         episodes: 120,
