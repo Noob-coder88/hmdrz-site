@@ -802,7 +802,7 @@ const shows = [
     imdb: 8.7,
     seasons: 3,
     episodes: 26,
-    description: "Two FBI agents begin talking to serial killers to understand their minds, opening a new way of looking at murder.",
+    description: "A supernatural mystery unfolds in a German town when two children disappear, revealing secrets and connections between four families.",
     image: "./images/shows/dark.webp",
     imdbUrl: "https://www.imdb.com/title/tt5753856/"
 }
