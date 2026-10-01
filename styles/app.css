@@ -215,7 +215,7 @@ body {
 }
 .watchlist-title{
     font-size: 2.2rem;
-    padding: 2rem;
+    padding:  2rem 2rem 1rem 2rem;
 }
 /* Show page */
 .show{
