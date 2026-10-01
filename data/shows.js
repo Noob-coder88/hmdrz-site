@@ -794,4 +794,16 @@ const shows = [
     image: "./images/shows/mindhunter.webp",
     imdbUrl: "https://www.imdb.com/title/tt5290382/"
 },
+{
+    id: "dark",
+    title: "Dark",
+    status: "Watching",
+    myrate: "--",
+    imdb: 8.7,
+    seasons: 3,
+    episodes: 26,
+    description: "Two FBI agents begin talking to serial killers to understand their minds, opening a new way of looking at murder.",
+    image: "./images/shows/dark.webp",
+    imdbUrl: "https://www.imdb.com/title/tt5753856/"
+}
 ];
