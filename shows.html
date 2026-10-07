@@ -39,7 +39,6 @@
         <div class="container">
             <section class="my_shows">
                 <div class="shows_about">
-                    <h1 class="shows_about_title">> My Shows</h1>
                     <p class="shows_about_description">
                             This is a list of what I've watched.
                     </p>
@@ -51,8 +50,12 @@
                     <p class="shows_about_description">
                         Honestly, there’s nothing bad here — the ratings just show how much each show meant to me.
                     </p>
-
+                    <!-- <h1 class="shows_about_title">> My Shows</h1> -->
                 </div>
+                <div class="searchbox">
+                      <input class="shows_search" type="text" id="search" placeholder="[ Search shows... ] ">
+                </div>
+                    <h1 class="Watching_title shows_section_title">> Watching Now</h1>
                 <div class="shows_list">
                     <!-- Watching -->
                     <a href="show.html?id=dark" class="shows_item Watching">
@@ -61,7 +64,7 @@
                         <p class="shows_imdb">IMDb: 8.7</p>
                         <p class="shows_myrate">Mine: --</p>
                     </a>
-
+                    <h2 class="Finished_title shows_section_title">> Finished</h2>
                     <!-- Finished -->
                     <a href="show.html?id=curb-your-enthusiasm" class="shows_item">
                         <h2 class="shows_title">Curb Your Enthusiasm</h2>
@@ -461,7 +464,7 @@
                         <p class="shows_myrate">Mine: 6</p>
                     </a>
 
-                    <h2 class="watchlist-title">> Watchlist</h2>
+                    <h2 class="watchlist_title shows_section_title">> Watchlist</h2>
 
                     <a href="show.html?id=band-of-brothers" class="shows_item">
                         <h2 class="shows_title">Band of Brothers</h2>
@@ -501,6 +504,27 @@
             </section>
         </div>
     </footer>
+    <script>
+        const searchInput = document.getElementById("search");
+        const shows = document.querySelectorAll(".shows_item");
+        const sectionTitles = document.querySelectorAll(".shows_section_title");
 
+        searchInput.addEventListener("input", () => {
+            const query = searchInput.value.toLowerCase().trim();
+
+            shows.forEach(show => {
+                const title = show
+                    .querySelector(".shows_title")
+                    .textContent
+                    .toLowerCase();
+
+                show.style.display = title.includes(query) ? "" : "none";
+            });
+
+            sectionTitles.forEach(section => {
+                section.style.display = query ? "none" : "";
+            });
+        });
+    </script>
 </body>
 </html>

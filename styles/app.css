@@ -163,11 +163,26 @@ body {
 
 }
 .shows_about{
-    padding: 2.4rem 0 2rem 2rem;
+    padding: 2.4rem 0 3rem 2rem;
     line-height: 1.6;
 }
+.shows_search{
+    background-color: var(--color-bg);
+    border: none;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.6rem;
+    margin: 0 0 2rem 2rem;
+    color: var(--color-text);
+
+}
+#search::placeholder {
+    color: var(--color-accent);
+}
+
 .shows_about_title{
     font-size: 2.4rem;
+    /* display: inline-block; */
 }
 .shows_about_description{
     font-size: 1.8rem;
@@ -188,8 +203,22 @@ body {
     color: var(--color-text);
     box-shadow: var(--color-surface) 0 .2rem 0;
 }
+.Watching_title{
+    font-size: 2.2rem;
+    padding: 1em 2rem 0 2rem;
+    margin-bottom: 0;
+}
+.Finished_title{
+    font-size: 2.2rem;
+    padding: 1em 2rem 0 1rem;
+}
+.watchlist_title{
+    font-size: 2.2rem;
+    padding:  3rem 2rem 0 2rem;
+}
 .Watching{
     margin-bottom: 3rem;
+    padding-left: 2rem;
 }
 .shows_item:last-child{
     box-shadow: none;
@@ -213,10 +242,7 @@ body {
     font-size: 1.4rem;
     text-align: right;
 }
-.watchlist-title{
-    font-size: 2.2rem;
-    padding:  2rem 2rem 1rem 2rem;
-}
+
 /* Show page */
 .show{
     padding: 4rem 1rem;
@@ -398,6 +424,27 @@ body {
     }
     .shows_about_description{
         font-size: 1.6rem;
+    }
+    .searchbox{
+        display: flex;
+        justify-content: center;
+    }
+    .shows_search{
+        margin-bottom: 1rem;
+    }
+    .Watching_title{
+        font-size: 2rem;
+        padding: 1em 2rem 0 2rem;
+    }
+    .Finished_title{
+        font-size: 2rem;
+        padding: 1em 2rem 0 1rem;
+    }
+    .watchlist_title{
+        font-size: 2rem;
+        padding:  3rem 2rem 0 2rem;
+    }
+    .Watching{
 
     }
     .shows_item{
@@ -476,7 +523,7 @@ body {
         font-size: 1.6rem;
         height: auto;
     }
-    .about{
+    /* .about{
         padding: 2rem 2rem 3rem 2rem;
     }
     .about_title{
@@ -485,5 +532,5 @@ body {
     .about_text{
         font-size: 1.6rem;
         padding-top: 1rem;
-    }
+    } */
 }
