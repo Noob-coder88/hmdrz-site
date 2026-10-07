@@ -395,7 +395,7 @@ const shows = [
         episodes: 10,
         description: "The story of Jeffrey Dahmer unfolds through the lives of his victims and the failures that allowed his crimes to continue for years.",
         image: "./images/shows/monster-the-jeffrey-dahmer-story.webp",
-        imdbUrl: "https://www.themoviedb.org/tv/113988-dahmer-monster-the-jeffrey-dahmer-story"
+        imdbUrl: "https://www.imdb.com/title/tt13207736/"
     },
     {
         id: "sherlock",
@@ -805,5 +805,17 @@ const shows = [
     description: "A supernatural mystery unfolds in a German town when two children disappear, revealing secrets and connections between four families.",
     image: "./images/shows/dark.webp",
     imdbUrl: "https://www.imdb.com/title/tt5753856/"
+},
+{
+    id: "madmen",
+    title: "MadMen",
+    status: "Watchlist",
+    myrate: "--",
+    imdb: 8.7,
+    seasons: 7,
+    episodes: 92,
+    description: "A mysterious ad executive navigates the ruthless world of 1960s Madison Avenue, where ambition, secrets, and competition collide.",
+    image: "./images/shows/madmen.webp",
+    imdbUrl: "https://www.imdb.com/title/tt0804503/"
 }
 ];
