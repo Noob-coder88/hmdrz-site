@@ -389,7 +389,7 @@ const shows = [
         id: "monster-the-jeffrey-dahmer-story",
         title: "Monster: The Jeffrey Dahmer Story",
         status: "Finished",
-        myrate: 8,
+        myrate: 7,
         imdb: 7.8,
         seasons: 1,
         episodes: 10,
