@@ -798,7 +798,7 @@ const shows = [
     id: "dark",
     title: "Dark",
     status: "Watching",
-    myrate: "--",
+    myrate: "9",
     imdb: 8.7,
     seasons: 3,
     episodes: 26,
